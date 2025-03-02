@@ -2,19 +2,11 @@
 
 
 ### Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?  
-This project focuses on implementing deep Q-learning for a treasure hunt game. The goal is to develop an intelligent agent—a pirate—that navigates through a maze to find the treasure before an opponent does.  
+The implementation of deep Q-learning for a treasure hunt game is the main goal of this project.  The idea is to create an intelligent agent—a pirate—that can navigate a maze and find the treasure before an opponent can.
 
-I was given two Python classes:  
-- **`TreasureMaze.py`**: Defines the environment, which is represented as an 8x8 matrix.  
-- **`GameExperience.py`**: Stores episodes of the game to allow the agent to learn from past experiences.  
+I was given two Python classes, **`TreasureMaze.py`** and **`GameExperience.py`**. The environment maze is defined by **`TreasureMaze.py`** and is shown as an 8x8 matrix. To enable the agent to learn from prior encounters, **`GameExperience.py`** stores game episodes. Additionally, the Jupyter Notebook provided a structured framework, including utility functions for visualizing the maze and setting up the game.  
 
-Additionally, the Jupyter Notebook provided a structured framework, including utility functions for visualizing the maze and setting up the game.  
-
-My main contribution was completing the deep Q-learning implementation by filling in the provided skeleton code. This involved:  
-- Implementing the Q-learning algorithm for training the pirate agent.  
-- Fine-tuning hyperparameters such as the learning rate, discount factor, and exploration rate.  
-- Ensuring the agent could balance **exploration** (discovering new paths) and **exploitation** (using learned strategies).  
-- Testing the trained model to evaluate its effectiveness in navigating the maze.  
+My main contribution was to finish the deep Q-learning implementation by filling in the provided skeleton code.  This included training the pirate agent using the Q-learning method and adjusting hyperparameters like the exploration rate, learning rate, and discount factor. To ensure the agent can strike a balance between **exploitation** (applying learned methods) and **exploration** (finding new paths), the trained model is tested to see how well it navigates the maze.  
 
 Through this work, I gained a deeper understanding of reinforcement learning, neural network training, and the practical application of AI in game environments.  
 
