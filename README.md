@@ -28,8 +28,6 @@ The key to solving problems in computer science is **structured thinking**. Prio
 ### What are my ethical responsibilities to the end user and the organization?  
 Ethical considerations are vital in AI and software development. My responsibilities include:  
 
-- **Transparency & Fairness** – AI models should be interpretable and free from biases that could lead to unfair decision-making. In this project, ensuring the pirate AI follows logical learning patterns is a small-scale example of broader AI fairness principles.  
-- **Data Privacy** – If real-world data were involved, protecting user information would be crucial. While this project used a simulated environment, in actual AI applications, responsible data handling is a priority.  
-- **User Experience & Safety** – The AI should enhance the user experience rather than create frustration or unintended consequences. This is especially important in high-stakes applications like self-driving cars or medical AI.  
-- **Integrity & Honesty** – Whether working in research or industry, developers must ensure their systems function as intended and do not misrepresent their capabilities.  
-
+- **Transparency & Fairness** – AI models should be free from biases that could lead to unfair decision-making.  
+- **Data Privacy** – If real-world data were involved, protecting user information would be crucial. While this project used a simulated environment, in actual AI applications, responsible data handling is a major priority.  
+- **User Experience & Safety** – The AI should enhance the user experience rather than create frustration or confusion. This is especially important in high-stakes applications like self-driving cars or medical AI.  
